@@ -2,7 +2,8 @@
   "name": "muscle-builder-api",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Cristian Souza",
+  "repository": "https://github.com/cristianldesouza/muscle-builder-api.git",
+  "author": "Adolpho Piazza, Cristian Souza",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
