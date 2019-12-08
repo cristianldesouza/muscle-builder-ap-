@@ -5,7 +5,15 @@
   "repository": "https://github.com/cristianldesouza/muscle-builder-api.git",
   "author": "Adolpho Piazza, Cristian Souza",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon --ignore './database/' src/server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "lowdb": "^1.0.0",
+    "md5": "^2.2.1",
+    "nodemon": "^2.0.1"
   }
 }

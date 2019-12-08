@@ -1,0 +1,141 @@
+{
+  "usuario": [
+    {
+      "login": "cris",
+      "senha": "6019",
+      "token": "9db9f7141d582d7e04d76642b1516379"
+    }
+  ],
+  "treino": [],
+  "categorias": [
+    {
+      "nome": "Peito"
+    },
+    {
+      "nome": "Costas"
+    },
+    {
+      "nome": "Perna"
+    },
+    {
+      "nome": "Ombro"
+    },
+    {
+      "nome": "Braços"
+    }
+  ],
+  "exercicios": [
+    {
+      "categoria": "Peito",
+      "exercicio": "Supino Reto 4x12"
+    },
+    {
+      "categoria": "Peito",
+      "exercicio": "Supino Inclinado 4x12"
+    },
+    {
+      "categoria": "Peito",
+      "exercicio": "Supino Declinado 4x12"
+    },
+    {
+      "categoria": "Peito",
+      "exercicio": "Crussifixo Pack Deck 4x12"
+    },
+    {
+      "categoria": "Peito",
+      "exercicio": "Crossover polia 4x20"
+    },
+    {
+      "categoria": "Costas",
+      "exercicio": "Puxador de Frente 4x12"
+    },
+    {
+      "categoria": "Costas",
+      "exercicio": "Puxador Fechado 4x12"
+    },
+    {
+      "categoria": "Costas",
+      "exercicio": "Remada Baixa 4x12"
+    },
+    {
+      "categoria": "Costas",
+      "exercicio": "Remada Doriana 4x12"
+    },
+    {
+      "categoria": "Costas",
+      "exercicio": "Crussifixo Invertido 4x20"
+    },
+    {
+      "categoria": "Perna",
+      "exercicio": "Extensora 4x30"
+    },
+    {
+      "categoria": "Perna",
+      "exercicio": "Agachamento Livre 4x12"
+    },
+    {
+      "categoria": "Perna",
+      "exercicio": "Legpress 45 4x12"
+    },
+    {
+      "categoria": "Perna",
+      "exercicio": "Mesa Flexora 4x12"
+    },
+    {
+      "categoria": "Perna",
+      "exercicio": "Afundo 4x12"
+    },
+    {
+      "categoria": "Ombro",
+      "exercicio": "Desenvolvimento com Halter 4x12"
+    },
+    {
+      "categoria": "Ombro",
+      "exercicio": "Elevação Frontal 4x12"
+    },
+    {
+      "categoria": "Ombro",
+      "exercicio": "Elevação Lateral 4x12"
+    },
+    {
+      "categoria": "Ombro",
+      "exercicio": "Remada Alta 4x12"
+    },
+    {
+      "categoria": "Ombro",
+      "exercicio": "Encolhimento 4x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Rosca Direta 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Tríceps Polia + Paralela Polia 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Rosca Alternada 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Tríceps Testa 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Roscar Scott 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Tríceps Coice 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Rosca Polia Corda 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "exercicio": "Tríceps Corda 3x12"
+    }
+  ]
+}
