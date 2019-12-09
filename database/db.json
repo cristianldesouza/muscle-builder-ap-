@@ -6,7 +6,71 @@
       "token": "9db9f7141d582d7e04d76642b1516379"
     }
   ],
-  "treino": [],
+  "treino": [
+    {
+      "dia": "segunda-feira",
+      "token": "9db9f7141d582d7e04d76642b1516379",
+      "categoria": "Peito",
+      "exercicios": [
+        "Supino Reto 4x12",
+        "Supino Inclinado 4x12",
+        "Supino Declinado 4x12",
+        "Crussifixo Pack Deck 4x12",
+        "Crossover polia 4x20"
+      ]
+    },
+    {
+      "dia": "terca-feira",
+      "token": "9db9f7141d582d7e04d76642b1516379",
+      "categoria": "Costas",
+      "exercicios": [
+        "Puxador de Frente 4x12",
+        "Puxador Fechado 4x12",
+        "Remada Baixa 4x12",
+        "Remada Doriana 4x12",
+        "Crussifixo Invertido 4x20"
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "token": "9db9f7141d582d7e04d76642b1516379",
+      "categoria": "Perna",
+      "exercicios": [
+        "Extensora 4x30",
+        "Agachamento Livre 4x12",
+        "Legpress 45 4x12",
+        "Mesa Flexora 4x12",
+        "Afundo 4x20"
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "token": "9db9f7141d582d7e04d76642b1516379",
+      "categoria": "Ombro",
+      "exercicios": [
+        "Elevação Frontal 4x12",
+        "Elevação Frontal 4x12",
+        "Elevação Lateral 4x12",
+        "Remada Alta 4x12",
+        "Encolhimento 4x12"
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "token": "9db9f7141d582d7e04d76642b1516379",
+      "categoria": "Braço",
+      "exercicios": [
+        "Rosca Direta 3x12",
+        "Tríceps Polia + Paralela Polia 3x12",
+        "Rosca Alternada 3x12",
+        "Tríceps Testa 3x12",
+        "Roscar Scott 3x12",
+        "Tríceps Coice 3x12",
+        "Rosca Polia Corda 3x12",
+        "Tríceps Corda 3x12"
+      ]
+    }
+  ],
   "categorias": [
     {
       "nome": "Peito"

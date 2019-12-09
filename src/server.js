@@ -57,6 +57,26 @@ app.post('/login', async function (req, res) {
 
 });
 
+app.use(function (req, res, next) {
+    console.log("Verificando autenticação");
+
+    if(! req.headers.token){
+        return res.status(400).json({
+            mensagem: 'Token não enviado'
+        });
+    }
+    const usuario = db.get('usuario')
+        .find({ token: req.headers.token })
+        .value();
+    if(!usuario){
+        return res.status(403).json({
+            mensagem: 'Token inválido'
+        });
+    }
+    req.usuario = usuario;
+    next();
+});
+
 app.get('/exercs', async function (req, res) {
     let exercicios = await db.get('exercicios').value();
     console.log(exercicios);
@@ -65,6 +85,20 @@ app.get('/exercs', async function (req, res) {
     });
 });
 
+app.get('/exercicios/:dia', function (req, res) {
+    
+    const usuario = req.usuario;
+    const dia = req.params.dia;
+    console.log(`Obtendo treinos de ${dia}`);
+
+    const exercicios = db.get('treino')
+        .find( { dia: dia }, { token: usuario } )
+        .value();
+    
+    console.log(exercicios)
+    
+    return res.status(200).json(exercicios);
+});
 
 
 app.listen(3333, () => { console.log('Running on 3333') });
