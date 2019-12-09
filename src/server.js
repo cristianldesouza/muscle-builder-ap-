@@ -77,14 +77,6 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.get('/exercs', async function (req, res) {
-    let exercicios = await db.get('exercicios').value();
-    console.log(exercicios);
-    return res.status(200).json({
-        data: exercicios
-    });
-});
-
 app.get('/exercicios/:dia', function (req, res) {
     
     const usuario = req.usuario;
@@ -95,9 +87,39 @@ app.get('/exercicios/:dia', function (req, res) {
         .find( { dia: dia }, { token: usuario } )
         .value();
     
-    console.log(exercicios)
-    
     return res.status(200).json(exercicios);
+});
+
+app.get('/categorias', function (req, res) {
+    console.log('Obtendo categorias...');
+
+    const categorias = db.get('categorias')
+        .value();
+    
+    return res.status(200).json(categorias);
+});
+
+app.get('/variacoes/:categoria', function (req, res) {
+    
+    const usuario = req.usuario;
+    const categoria = req.params.categoria;
+    console.log(`Obtendo variações de ${categoria}`);
+
+    const exercicios = db.get('exercicios')
+        .value();
+    
+    let variacoes = [];
+    let i = 0;
+    
+    for (exercicio of exercicios) {
+
+        if (variacoes.indexOf(exercicio.variacao) == '-1') {
+            variacoes[i] = exercicio.variacao;
+            i++
+        }
+    }
+    
+    return res.status(200).json(variacoes);
 });
 
 

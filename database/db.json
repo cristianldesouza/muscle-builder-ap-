@@ -91,114 +91,167 @@
   "exercicios": [
     {
       "categoria": "Peito",
+      "variacao": 1,
       "exercicio": "Supino Reto 4x12"
     },
     {
       "categoria": "Peito",
+      "variacao": 2,
+      "exercicio": "Supino Reto Com Halteres 3x15"
+    },
+    {
+      "categoria": "Peito",
+      "variacao": 1,
       "exercicio": "Supino Inclinado 4x12"
     },
     {
       "categoria": "Peito",
+      "variacao": 1,
       "exercicio": "Supino Declinado 4x12"
     },
     {
       "categoria": "Peito",
+      "variacao": 1,
       "exercicio": "Crussifixo Pack Deck 4x12"
     },
     {
       "categoria": "Peito",
+      "variacao": 1,
       "exercicio": "Crossover polia 4x20"
     },
     {
       "categoria": "Costas",
+      "variacao": 1,
       "exercicio": "Puxador de Frente 4x12"
     },
     {
       "categoria": "Costas",
+      "variacao": 2,
+      "exercicio": "Remada Cavalinho 3x15"
+    },
+    {
+      "categoria": "Costas",
+      "variacao": 1,
       "exercicio": "Puxador Fechado 4x12"
     },
     {
       "categoria": "Costas",
+      "variacao": 1,
       "exercicio": "Remada Baixa 4x12"
     },
     {
       "categoria": "Costas",
+      "variacao": 1,
       "exercicio": "Remada Doriana 4x12"
     },
     {
       "categoria": "Costas",
+      "variacao": 1,
       "exercicio": "Crussifixo Invertido 4x20"
     },
     {
       "categoria": "Perna",
+      "variacao": 1,
       "exercicio": "Extensora 4x30"
     },
     {
       "categoria": "Perna",
+      "variacao": 2,
+      "exercicio": "Abdutor 3x15"
+    },
+    {
+      "categoria": "Perna",
+      "variacao": 1,
       "exercicio": "Agachamento Livre 4x12"
     },
     {
       "categoria": "Perna",
+      "variacao": 1,
       "exercicio": "Legpress 45 4x12"
     },
     {
       "categoria": "Perna",
+      "variacao": 1,
       "exercicio": "Mesa Flexora 4x12"
     },
     {
       "categoria": "Perna",
+      "variacao": 1,
       "exercicio": "Afundo 4x12"
     },
     {
       "categoria": "Ombro",
+      "variacao": 1,
       "exercicio": "Desenvolvimento com Halter 4x12"
     },
     {
       "categoria": "Ombro",
+      "variacao": 2,
+      "exercicio": "Log Press 3x15"
+    },
+    {
+      "categoria": "Ombro",
+      "variacao": 1,
       "exercicio": "Elevação Frontal 4x12"
     },
     {
       "categoria": "Ombro",
+      "variacao": 1,
       "exercicio": "Elevação Lateral 4x12"
     },
     {
       "categoria": "Ombro",
+      "variacao": 1,
       "exercicio": "Remada Alta 4x12"
     },
     {
       "categoria": "Ombro",
+      "variacao": 1,
       "exercicio": "Encolhimento 4x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Rosca Direta 3x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 2,
+      "exercicio": "Rosca Cócoras 3x12"
+    },
+    {
+      "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Tríceps Polia + Paralela Polia 3x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Rosca Alternada 3x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Tríceps Testa 3x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Roscar Scott 3x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Tríceps Coice 3x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Rosca Polia Corda 3x12"
     },
     {
       "categoria": "Braço",
+      "variacao": 1,
       "exercicio": "Tríceps Corda 3x12"
     }
   ]
